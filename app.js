@@ -811,4 +811,7 @@ function init() {
   updateAbility();
 }
 
-init();
+window.onload = function() {
+  init();
+};
+
